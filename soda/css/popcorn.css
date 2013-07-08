@@ -1,0 +1,107 @@
+[class*="glyph-"] {
+  background: url('../img/icons.svg');
+  width: 25px;
+  height: 18px;
+  margin-top:7px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+[class*="glyph-"]:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.glyph-user {
+  background-position: 0 0px;
+}
+.glyph-lock {
+  background-position: -45px 0;
+}
+.glyph-cog {
+  background-position: -90px 0;
+}
+.glyph-love {
+  background-position: -138px 0;
+}
+.glyph-left {
+  background-position: -186px 0;
+}
+.glyph-tick-circle {
+  background-position: 0px -47px;
+}
+.glyph-cross-circle {
+  background-position: -45px -47px;
+}
+.glyph-cross {
+  background-position: -90px -47px;
+}
+.glyph-tick {
+  background-position: -138px -47px;
+}
+.glyph-right {
+  background-position: -186px -47px;
+}
+.glyph-list {
+  background-position: 0 -93px;
+}
+.glyph-search {
+  background-position: -45px -93px;
+}
+.glyph-speech {
+  background-position: -93px -93px;
+}
+.glyph-eye {
+  background-position: -142px -93px;
+}
+.glyph-pin {
+  background-position: -186px -93px;
+}
+.glyph-user-white {
+  background-position: 0 -128px;
+}
+.glyph-lock-white {
+  background-position: -45px -128px;
+}
+.glyph-cog-white {
+  background-position: -91px -128px;
+}
+.glyph-love-white {
+  background-position: -138px -127px;
+}
+.glyph-left-white {
+  background-position: -186px -127px;
+}
+.glyph-tick-circle-white {
+  background-position: 0px -175px;
+}
+.glyph-cross-circle-white {
+  background-position: -45px -175px;
+}
+.glyph-cross-white {
+  background-position: -90px -175px;
+}
+.glyph-tick-white {
+  background-position: -140px -175px;
+}
+.glyph-right-white {
+  background-position: -186px -175px;
+}
+.glyph-list-white {
+  background-position: 0 -221px;
+}
+.glyph-search-white {
+  background-position: -45px -221px;
+}
+.glyph-speech-white {
+  background-position: -93px -221px;
+}
+.glyph-eye-white {
+  background-position: -144px -221px;
+}
+.glyph-pin-white {
+  background-position: -190px -221px;
+}
