@@ -112,6 +112,10 @@ p {
   margin-bottom:0;
 }
 
+.call-image {
+  text-align:center;
+}
+
 .twit-link,.twit-link:visited {
   font-family:"Georgia",Times,serif;
   text-decoration:underline;
