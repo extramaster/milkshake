@@ -49,6 +49,10 @@
   }
 }
 
+ul.bit-1 {
+  display: block;
+}
+
 /* Landscape to Tablet Portrait
 ===============================*/
 @media (min-width: 481px) and (max-width: 800px) {

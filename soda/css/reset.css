@@ -71,3 +71,9 @@ a:hover {
   background: #ffc500; 
   color:#fff;
 }
+ol, ul { 
+  list-style: none;
+}
+li{
+  display: inline;
+}

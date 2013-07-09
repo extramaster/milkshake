@@ -76,7 +76,7 @@ p {
 
 .dropdown {
   display:none;
-  background:#e89eb5;
+  background:rgba(0,0,0,.1);
   margin-top:71px;
   font-size:15px;
   text-align:center;
@@ -112,13 +112,20 @@ p {
   margin-bottom:0;
 }
 
+.call-image {
+  text-align:center;
+}
+
 .twit-link,.twit-link:visited {
   font-family:"Georgia",Times,serif;
   text-decoration:underline;
   color:#fff;
 }
 
+/* Button emulation, as buttons cannot be nested inside <a> tags.. */
 .call-btn {
+  display:inline-block;
+  text-align:center;
   border:2px solid #fff;
   background:none;
   border-radius:6px;
@@ -347,4 +354,12 @@ iframe {
   font-size:15px;
   color:#777;
   font-weight:500;
+}
+
+.googlemaps{
+  overflow:hidden;
+  margin:0;
+  border:0;
+  width:100%;
+  height:235px
 }
