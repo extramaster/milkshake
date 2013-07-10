@@ -41,16 +41,16 @@ a,
 a:visited,
 a:active {
   text-decoration: none;
-  -webkit-transition: all 0.1s ease-in-out;
-     -moz-transition: all 0.1s ease-in-out;
-          transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 
 a:hover {
   text-decoration: none;
-  -webkit-transition: all 0.1s ease-in-out;
-     -moz-transition: all 0.1s ease-in-out;
-          transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 
 * {
@@ -71,9 +71,7 @@ a:hover {
   background: #ffc500; 
   color:#fff;
 }
+
 ol, ul { 
   list-style: none;
-}
-li{
-  display: inline;
 }

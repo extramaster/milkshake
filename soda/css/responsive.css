@@ -1,122 +1,8 @@
 /* Landscape and down
 ===============================*/
 @media (max-width: 480px) {
-  .bit-1 {
-    width:100%;
-  }
-  .bit-2 {
-    width:100%;
-  }
-  .bit-3 {
-    width: 100%;
-  }
-  .bit-4 {
-    width: 100%;
-  }
-  .bit-5 {
-    width: 100%;
-  }
-  .bit-6 {
-    width: 100%;
-  }
-  .bit-7 {
-    width: 100%;
-  }
-  .bit-8 {
-    width: 100%;
-  }
-  .bit-9 {
-    width: 100%;
-  }
-  .bit-10 {
-    width: 100%;
-  }
-  .bit-11 {
-    width: 100%;
-  }
-  .bit-12 {
-    width: 100%;
-  }
-  .frame .bit-4:nth-child(2) {
-    float: right;
-  }
-  .frame .bit-4:nth-child(3) {
-    clear: both;
-    float: left;
-  }
-  .frame .bit-4:nth-child(4) {
-    float: right;
-  }
-}
-
-ul.bit-1 {
-  display: block;
-}
-
-/* Landscape to Tablet Portrait
-===============================*/
-@media (min-width: 481px) and (max-width: 800px) {
-  .bit-2 {
-    width:100%;
-  }
-  .bit-4 {
-    width:50%;
-  }
-  .bit-5 {
-    width:100%;
-  }
-  .bit-6 {
-    width:50%;
-  }
-  .bit-7 {
-    width:100%;
-  }
-  .bit-8 {
-    width: 50%;
-  }
-  .bit-9 {
-    width: 100%;
-  }
-  .bit-10 {
-    width: 50%;
-  }
-  .bit-11 {
-    width: 100%;
-  }
-  .bit-12 {
-    width: 50%;
-  }
-}
-
-/* Landscape Tablet to Desktop
-===============================*/
-@media (min-width: 801px) and (max-width: 1100px) {
-  .bit-2 {
-    width:100%;
-  }
-  .bit-4 {
-    width:50%;
-  }
-  .bit-7 {
-    width:100%;
-  }
-  .bit-8 {
-    width: 50%;
-  }
-  .bit-10 {
-    width: 50%;
-  }
-  .bit-12 {
-    width: 50%;
-  }
-}
-
-
-/* Landscape and down
-===============================*/
-@media (max-width: 480px) {
   .navigation {
-    padding:10px 40px 10px 40px;
+    padding:10px 20px 10px 20px;
   }
 
   h1, h2, h3, h4 {
@@ -128,14 +14,20 @@ ul.bit-1 {
 
   .dropdown {
     text-align:left;
+    width:100%;
+    left:0;
+    top:0px;
+    border-radius:0;
   }
 
   .dropdown > .bit-1 > li {
     display:block;
+    list-style:none;
   }
 
   .banner {
-    margin:100px auto;
+    margin:120px auto;
+    margin-bottom:80px;
     padding-bottom:0px;
   }
 
@@ -202,10 +94,6 @@ ul.bit-1 {
     padding-bottom:50px;
   }
 
-  .gallery {
-    width:90%;
-  }
-
   .blog {
      width:85%;
   }
@@ -214,6 +102,23 @@ ul.bit-1 {
 /* Landscape to Tablet Portrait
 ===============================*/
 @media (min-width: 481px) and (max-width: 800px) {
+  .navigation {
+    padding:10px 30px 10px 30px;
+  }
+
+  .dropdown {
+    text-align:left;
+    width:100%;
+    left:0;
+    top:0px;
+    border-radius:0;
+  }
+
+  .dropdown > .bit-1 > li {
+    display:block;
+    list-style:none;
+  }
+
   .call-image {
     display:none;
   }
@@ -242,14 +147,6 @@ ul.bit-1 {
     padding-bottom:50px;
   }
 
-  .gallery > .bit-3 {
-    width:100%;
-  }
-
-  .gallery-2 > .bit-3 {
-    width:100%;
-  }
-
   .blog {
     width:90%;
   }
@@ -262,6 +159,19 @@ ul.bit-1 {
 /* Landscape Tablet to Desktop
 ===============================*/
 @media (min-width: 801px) and (max-width: 1100px) {
+  .dropdown {
+    text-align:left;
+    width:100%;
+    left:0;
+    top:0px;
+    border-radius:0;
+  }
+
+  .dropdown > .bit-1 > li {
+    display:inline-block;
+    list-style:none;
+  }
+
   .call-image {
     display:none;
   }
@@ -270,41 +180,3 @@ ul.bit-1 {
     width:80%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

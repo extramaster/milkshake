@@ -3,7 +3,7 @@
 <html lang="en-US">
 
 <head>
-    	<meta charset="UTF-8" />
+  <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
  	<link rel="stylesheet" type="text/css" href="css/global.css">
@@ -11,7 +11,7 @@
  	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/popcorn.css">
 
-
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 	<title>Contact | Soda — Flat Template</title>
 
@@ -24,35 +24,56 @@
 
 	<div class="frame navigation">
 		<div class="bit-1">
-			<h1 class="logo"><a href="/">Soda</a></h1>
-			<a class="nav-btn" href="#">&#9776;</a>
+			<h1 class="logo"><a href="index.html">Soda</a></h1>
+            <label for="menuBox" class="nav-btn" onclick>&#9776;</label>
 		</div>
 	</div>
 
+    <input type="checkbox" id="menuBox" checked />
 	<div class="frame dropdown">
 		<ul class="bit-1">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
-			<li><a href="port.html">Portfolio</a></li>
 			<li><a href="blog.html">Blog</a></li>
 			<li><a class="active" href="contact.html">Contact</a></li>
 		</ul>
 	</div>
 
-	<div class="frame banner">
+	<div class="frame banner cont-head">
 		<div class="bit-1">
 			<h1>Get in touch.</h1>
 			<p>If you would like to contact me regarding<br /> this template please use the email below.</p>
-			<a href="mailto:dope@lifes.gd"><div class="call-btn">dope@lifes.gd</div></a>
+			<a class="call-btn" href="mailto:dope@lifes.gd">dope@lifes.gd</a>
 		</div>
 	</div>
+
+		<div class="frame form-wrapper">
+			<div class="frame contact">
+				<div class="bit-2">
+					<form>
+						<h1>Get in touch.</h1>
+						<input placeholder="Joey Dope" type="text"/>
+						<input placeholder="dope@lifes.gd" type="email"/>
+						<textarea placeholder="Send us something nice"></textarea>
+						<button class="contact-btn">Send your email</button>
+					</form>
+				</div>
+				<div class="bit-3">
+					<h1>Mail us.</h1>
+					<address>
+						Joey Dope<br />
+						360 Felosa Drive<br />
+						Los Angeles, CA 90036
+					</address>
+					<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=90036&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=37.188995,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Los+Angeles,+California+90036&amp;t=m&amp;z=14&amp;ll=34.066482,-118.352039&amp;output=embed" class="googlemaps"></iframe>
+				</div>
+			</div>
+		</div>
 
 	<footer class="main footers">
 		<h4>Copyright 2013 Joey Dope</h4>
 		<a href="https://twitter.com/itsjoer" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @itsjoer</a>
 	</footer>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="js/soda.js"></script>
 <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
